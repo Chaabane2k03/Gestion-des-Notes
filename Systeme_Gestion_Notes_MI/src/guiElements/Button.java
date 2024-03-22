@@ -8,8 +8,11 @@ import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.UIManager;
 
+
+@SuppressWarnings("serial")
 public class Button extends JButton {
-    public Button(URL url, String text) {
+
+	public Button(URL url, String text) {
         setText(text);
         setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
         setBorder(null);
